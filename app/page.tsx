@@ -84,7 +84,7 @@ const contactMenuItems = [
 ];
 
 const hours = [
-  { day: "星期一至三 & 五", time: "5:30pm – 8:30pm", open: true },
+  { day: "星期一至三 & 五", time: "4:00pm – 8:30pm", open: true },
   { day: "星期六 & 天", time: "3:00pm – 8:30pm", open: true },
   { day: "星期四", time: "休息", open: false },
 ];
