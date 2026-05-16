@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 const menuItems = [
   {
     id: 1,
-    name: "香浓咖喱饭",
+    name: "香浓咖喱饭➕蛋➕饭",
     nameEn: "Fragrant Curry Rice",
     price: "RM 7",
     emoji: "🍛",
@@ -29,7 +29,7 @@ const menuItems = [
   },
   {
     id: 3,
-    name: "亚叁鱼",
+    name: "亚叁鱼➕蛋➕饭",
     nameEn: "Asam Fish",
     price: "时价",
     emoji: "🐟",
@@ -354,7 +354,7 @@ export default function Home() {
                 {/* Food image placeholder */}
                 <div
                   style={{
-                    height: 180,
+                    height: 280,
                     background: cardBg[i],
                     display: "flex",
                     alignItems: "center",
