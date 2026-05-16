@@ -1,0 +1,14 @@
+.overlay {
+  animation: fadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(1.02);
+    filter: blur(6px);
+  }
+  to {
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
