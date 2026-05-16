@@ -9,12 +9,12 @@ const menuItems = [
     id: 1,
     name: "香浓咖喱饭",
     nameEn: "Fragrant Curry Rice",
-    price: "RM 8",
+    price: "RM 7",
     emoji: "🍛",
     tag: "招牌",
     tagColor: "#C0392B",
     description: "浓郁香料精心熬制，搭配软烂入味的配料，香气四溢。",
-    imgLink: null,
+    imgLink: '/img/curry-chicken.jpg',
   },
   {
     id: 2,
@@ -43,12 +43,12 @@ const menuItems = [
     id: 4,
     name: "自制糕点",
     nameEn: "Homemade Kuih",
-    price: "RM 3",
+    price: "RM 5",
     emoji: "🍡",
     tag: "手工",
     tagColor: "#76448A",
     description: "每日新鲜手工制作，传统风味，甜而不腻。",
-    imgLink: null,
+    imgLink: "/img/haoyi-cake-green.jpg",
   },
 ];
 
@@ -244,8 +244,7 @@ export default function Home() {
               </a>
               <a
                 href="https://wa.me/60127691851"
-                className="cta-btn cta-secondary"
-                style={{ color: "#F5DEB0", borderColor: "rgba(200,160,80,0.5)" }}
+                className="cta-btn cta-secondary contact-us-btn"
               >
                 📲 联系我们
               </a>
@@ -308,7 +307,7 @@ export default function Home() {
             <img src="/img/hao-yi-jia-xiang-ru-rou-fan.jpg" alt="" className="w-auto h-full rounded-2xl shadow-xl object-cover" />
           </div>
           <div className="w-full max-w-[400px] relative flex justify-center gap-5">
-            <img src="/img/hao-yi-jia-xiang-ru-rou-fan-2.jpg" alt="" className="w-auto h-full rounded-2xl shadow-xl object-cover" />
+            <img src="/img/haoyi-kitchen-location.jpg" alt="" className="w-auto h-full rounded-2xl shadow-xl object-cover" />
           </div>
         </div>
 

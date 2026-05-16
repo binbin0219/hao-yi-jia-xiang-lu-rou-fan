@@ -144,3 +144,12 @@ html {
   .info-grid { grid-template-columns: 1fr !important; }
   .nav-links { display: none; }
 }
+
+.contact-us-btn {
+  color: #F5DEB0;
+  border-color: rgba(200,160,80,0.5);
+}
+
+.contact-us-btn:hover {
+  color: black;
+}
