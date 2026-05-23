@@ -307,7 +307,7 @@ export default function Home() {
             <img src="/img/hao-yi-jia-xiang-ru-rou-fan.jpg" alt="" className="w-auto h-full rounded-2xl shadow-xl object-cover" />
           </div>
           <div className="w-full max-w-[400px] relative flex justify-center gap-5">
-            <img src="/img/haoyi-kitchen-location.jpg" alt="" className="w-auto h-full rounded-2xl shadow-xl object-cover" />
+            <img src="/img/haoyi-kitchen-location-2.jpg" alt="" className="w-auto h-full rounded-2xl shadow-xl object-cover" />
           </div>
         </div>
 
